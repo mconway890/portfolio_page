@@ -71,6 +71,16 @@
                 <p>+ Used custom CSS and Semantic UI to style the front end</p>
                 <p>+ Utilized stateless, functional React components where possible</p>
               </div>
+              <div class="col-xl-12 col-lg-12 mx-auto">
+                <h1 class="mb-5">Blog Post</h1>
+                <p>For my React Redux Project I decided to make a Beer Management System. I used create-react-app to get started, and in a seperate repo using rails new, I set up my back end api. In my api I created a Beer model, serializer and generated migrations. For my controller, after some research I found that using app/controllers/api/v1 and nesting the controller in a module, is a good practice to avoid breaking changes and provide some backwards compatibility with the API. Next I added beers as a resource in config/routes.rb in addition to some seed data. I then created a client folder to house the react directories and merged my api with my react app.
+                </p>
+
+                <p>For my front end, I began by adding routes to the default page utilizing react-router-dom. I then added a NavBar, Home, Contact, About and BeerCard component. The BeerCard component would be used to render the attributes submitted through the input form when creating a beer. In my containers directory, I added BeerInput which handles the change and submit events of the form. In my reducers and actions I added case statements for adding, removing, upvoting and downvoting beers along with fetch requests to GET and POST data from the API. Finally in my containers, I added a Beers component that renders the table of beers that have been created along with the option to like and dislike a beer.
+                </p>
+
+                <p>For the final product being a single page application I thought the process would be a bit quicker, and yet I have made nearly 200 commits. I look forward to adding to them along with all my other projects I’ve made through Flatiron because if I’ve learned anything, it is that your work is never reall done.</p>
+              </div>
             </div>
 
           </div>
@@ -83,7 +93,7 @@
               <div class="col-md-8">
                 <div class="row">
                   <div class="col-md-8 mx-auto">
-                    <h2 class="h1 mb-5 mt-0">Related Projects</h2>
+                    <h2 class="h1 mb-5 mt-0">Projects</h2>
                   </div>
                 </div>
 
@@ -94,31 +104,38 @@
                 <div class="owl-carousel probootstrap-owl">
 
                   <div class="item">
-                    <img src="images/img_2.jpg" class="img-fluid" alt="Free Template by uicookies.com">
+                    <img src="images/corks.jpg" class="img-fluid" alt="Free Template by uicookies.com">
                     <div class="p-4 border border-top-0">
-                      <h4>Craig Smith</h4>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h4>Wine List</h4>
+                      <p>A CLI to find the top wines of the day and year as well as their price range</p>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="images/img_3.jpg" class="img-fluid" alt="Free Template by uicookies.com">
+                    <img src="images/veggiesheader.jpg" class="img-fluid" alt="Free Template by uicookies.com">
                     <div class="p-4 border border-top-0">
-                      <h4>Peter Wood</h4>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h4>Veggie Recipes</h4>
+                      <p>A web application that allows a user to store all of their favorite recipes</p>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="images/img_4.jpg" class="img-fluid" alt="Free Template by uicookies.com">
+                    <img src="images/ties.jpg" class="img-fluid" alt="Free Template by uicookies.com">
                     <div class="p-4 border border-top-0">
-                      <h4>James Carl</h4>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h4>Fantasy Quidditch</h4>
+                      <p>An app in Sinatra for creating fictional fantasy teams based on the game of Quidditch</p>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="images/img_5.jpg" class="img-fluid" alt="Free Template by uicookies.com">
+                    <img src="images/tictactoe1.jpg" class="img-fluid" alt="Free Template by uicookies.com">
                     <div class="p-4 border border-top-0">
-                      <h4>Craig Smith</h4>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h4>Tic Tac Toe</h4>
+                      <p>A tic-tac-toe rails API with a JavaScript front end</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/craftbeer.jpg" class="img-fluid" alt="Free Template by uicookies.com">
+                    <div class="p-4 border border-top-0">
+                      <h4>Beer Fridge</h4>
+                      <p>A single page React/Redux app built with a Rails API back-end. The app allows you to share the beers you're currently enjoying</p>
                     </div>
                   </div>
                 </div>

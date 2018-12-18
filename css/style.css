@@ -35,6 +35,23 @@ a {
 
 } */
 
+h2.centered {
+  font-family: Georgia,serif;
+  font-weight: normal;
+  font-style: italic;
+  font-family: proxima-nova;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6em;
+  font-size: 12px;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #707070;
+  padding-top: 10px;
+}
+
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.45;
@@ -129,7 +146,7 @@ h1, h2, h3, h4, h5,
   .probootstrap-aside .probootstrap-aside-footer {
     font-size: 10px;
     padding-left: 30px;
-    position: absolute;
+    position:absolute;
     bottom: 20px; }
 
 .probootstrap-aside-social li {
@@ -243,6 +260,7 @@ h1, h2, h3, h4, h5,
     visibility: hidden; }
     .probootstrap-main .card-columns .card.img-loaded {
       opacity: 1;
+      background: transparent;
       visibility: visible; }
     .probootstrap-main .card-columns .card a {
       position: relative;

@@ -6,7 +6,7 @@ body {
   line-height: 1.8;
   font-size: 18px;
   background: #fff;
-  color: #859196; }
+  color: #02558ad1; }
 
 a {
   -webkit-transition: .3s all ease;
@@ -16,24 +16,6 @@ a {
   a:hover {
     text-decoration: none;
     color: #1FAD9F; }
-
-/* h2.centered {
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: #f2f2f2;
-  background: #ff4a4a;
-  font-weight: 700;
-  margin: 0 5px 24px;
-  float: left;
-  padding: 10px;
-  margin: 0 5px 24px;
-  font-family: 'Libre Baskerville', serif;
-
-} */
 
 h2.centered {
   font-family: Georgia,serif;
@@ -72,7 +54,7 @@ h1, h2, h3, h4, h5,
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #fff;
+  background-image: linear-gradient(#a65875b3, #ffffff);
   z-index: 10;
   font-size: 16px;
   line-height: 1.5; }
@@ -105,7 +87,7 @@ h1, h2, h3, h4, h5,
       font-size: 20px;
       text-decoration: none;
       color: #000;
-      color: #1FAD9F;
+      color: #003a60;
       text-transform: uppercase;
       letter-spacing: .05em; }
   .probootstrap-aside .probootstrap-nav {
@@ -121,7 +103,7 @@ h1, h2, h3, h4, h5,
         float: left;
         width: 100%; }
         .probootstrap-aside .probootstrap-nav ul li a {
-          color: #000;
+          color: #325073;
           padding: 3px 0;
           display: block;
           float: left;
@@ -147,7 +129,8 @@ h1, h2, h3, h4, h5,
     font-size: 10px;
     padding-left: 30px;
     position:absolute;
-    bottom: 20px; }
+    bottom: 20px;
+    color: #a6a2a2;}
 
 .probootstrap-aside-social li {
   display: inline-block; }
@@ -270,7 +253,7 @@ h1, h2, h3, h4, h5,
       .probootstrap-main .card-columns .card a:before {
         z-index: 1;
         content: "";
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0);
         position: absolute;
         top: 0px;
         left: 0px;

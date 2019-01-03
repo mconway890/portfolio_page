@@ -33,13 +33,6 @@ h2.centered {
   padding-top: 10px;
 }
 
-.centered {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 blockquote {
   color: #003b60;
   font-style: italic;
